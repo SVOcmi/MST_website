@@ -1,0 +1,15 @@
+.fa-flower {
+  width: 58px;
+  height: 47px;
+  background-image: url("../public/icon/flower.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.fa-jackdaw {
+  width: 32px;
+  height: 32px;
+  background-image: url("../public/icon/jackdaw.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+}

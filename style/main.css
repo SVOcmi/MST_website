@@ -1,0 +1,76 @@
+@font-face {
+  font-family: 'Plata';
+  src: url('public/fonts/Prata-Regular.ttf') format('ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+:root {
+  --bg: #222222;
+  --bg-light: #282829;
+  --bg-dark: #000000;
+  --text: #FFFFFF;
+  --btn-bg: #FFFFFF;
+  --btn-bg-dark: #282829;
+  --border: #55565A;
+  --border-light: #D6D6D6;
+  --border-light-1: #D5C9BE;
+  --bg-form: #FFFFFF;
+  --text-dark: #38535D;
+  --text-dark-1: #55565A;
+  --border-dark: #405D65;
+  --nav-active: #FEE974;
+  --btn-active: #EEB721;
+  --icon-color: #D5C9BE;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 16px;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  line-height: 1.5;
+}
+
+span, p, div, h1,h2,h3,h4,h5 {
+  display: block;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+img, i {
+  max-width: 100%;
+  display: block;
+}
+
+.italic-text {
+  font-style: italic;
+}
+
+button {
+  border: none;
+  border-radius: .25rem;
+  background-color: var(--btn-bg);
+}
+
+a {
+  color: inherit; /* Наследуем цвет от родительского элемента */
+  text-decoration: none; /* Убираем подчеркивание */
+}
+
+a:hover {
+  text-decoration: none; /* Убираем подчеркивание при наведении */
+  /*  Можно добавить свои стили для наведения */
+}
